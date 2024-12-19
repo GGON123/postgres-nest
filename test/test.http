@@ -1,0 +1,12 @@
+GET http://localhost:3000/products/db1
+###
+POST http://localhost:3000/products/db1
+Authorization: Bearer <your-jwt-token>
+Content-Type: application/json
+
+{
+  "title": "Sample Product",
+  "description": "Test Description",
+  "price": 100,
+  "quantity": 10
+}
